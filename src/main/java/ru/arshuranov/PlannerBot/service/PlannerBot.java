@@ -8,6 +8,7 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import ru.arshuranov.PlannerBot.config.BotConfig;
 
 @Component
+
 public class PlannerBot extends TelegramLongPollingBot {
 
     final BotConfig config;
